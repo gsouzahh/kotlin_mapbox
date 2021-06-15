@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KotlinMapboxExemple</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoiZ3NvdXphaGgiLCJhIjoiY2tweWRjNXdpMDNiczJucW82czF1aHhjdyJ9.Yoh6m4k7jAA7U60cke0nYQ</string>
+    <string name="start_navigation">Start Navigation</string>
+    <string name="user_location_permission_explanation">This app needs location permission to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
 </resources>
