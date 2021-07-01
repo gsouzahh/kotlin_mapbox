@@ -16,7 +16,6 @@ import java.util.*
 class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     private var mapboxMap: MapboxMap? = null
     private lateinit var binding: ActivityMainBinding
-    private val SOURCE_ID = "SOURCE_ID"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +25,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
         binding.mapView.onCreate(savedInstanceState)
         binding.mapView.getMapAsync(this)
-
 
         val symbolLayerIconFeatureList: MutableList<Feature> = ArrayList()
         symbolLayerIconFeatureList.add(

@@ -46,11 +46,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.1'
-    /*implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6'
-    implementation ('com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.1'){
-        exclude group: 'group_name', module: 'module_name'
-    }
-    implementation ('com.mapbox.mapboxsdk:mapbox-android-sdk:8.4.0@aar'){
-        transitive=true
-    }*/
 }
